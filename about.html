@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KNUTE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/48d4494e69.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="sub-header">
+        <nav>
+            <div class="logo"><span>OUR</span> <span>KNUTE</span></div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./index.html">HOME</a></li>
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./course.html">COURSE</a></li>
+                    <li><a href="./contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+        </div>
+    </header>
+    <!-- ------------------ about us content ---------------------------->
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are best university</h1>
+                <p>Our university has a highly qualified and talented staff that is able to address
+                    problems and tasks faced by the national educational institution.
+                    The university personnel policy is aimed at constant staff development, mastering of contemporary teaching methods, legacy preservation, and increasing
+                    work motivation in order to ensure high levels of education. We also have a system for enhancing teachers’ qualifications and skills. This provides an opportunity for studying in Higher School of Pedagogical Proficiency, internships in other
+                    educational institutions, enterprises and organizations in Ukraine and abroad.
+                    SUTE has created favorable conditions for teachers’ scientific development.
+                    There are Postgraduate and Doctoral Studies Department, six specialized academic councils for the defense of doctoral and candidate theses in Economics,
+                    Engineering and Psychology at the university.
+                    Research and educational personnel has been awarded with the Order of
+                    Merit, honorary title of Honored Master of Sciences and Engineering of Ukraine,
+                    Honored Educator of Ukraine, SUTE commemorative medal Honored for the
+                    achievements in work.</p>
+                <a href="" class="btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="./img/Screenshot 2022-05-17 053808.png">
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------------- footer ---------------------------------->
+
+    
+    <footer>
+        <h4>About Us</h4>
+        <div class="icons">
+            <a href="https://knute.edu.ua/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://knute.edu.ua/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://knute.edu.ua/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://knute.edu.ua/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </footer>
+
+
+
+    <!-- java script to toggle the menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.height = "100vh";
+            navLinks.style.width = "200px";
+        }
+
+        function hideMenu() {
+            navLinks.style.height = 0;
+            navLinks.style.width = 0;
+        }
+    </script>
+</body>
+</html>
